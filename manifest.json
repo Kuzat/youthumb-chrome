@@ -1,0 +1,30 @@
+{
+	"manifest_version": 2,
+	"name": "Youthumb-Chrome",
+	"description": "Add button on youtube videos to easly get thumbnail",
+	"version": "0.1.0",
+	"author": "Vegard Bjørsvik",
+	"homepage_url": "https://youthumb.net",
+	
+	"icons": {
+		"128": "logo.png"
+	},
+	
+	"permissions": [
+		"webNavigation",
+		"tabs",
+		"*://www.youtube.com/*"
+	],
+	
+	"content_scripts": [
+		{
+			"matches": ["*://*.youtube.com/*"],
+			"js": ["button.js"],
+			"run_at": "document_end"
+		}
+	],
+	
+	"background": {
+		"scripts": ["background.js"]
+	}
+}
