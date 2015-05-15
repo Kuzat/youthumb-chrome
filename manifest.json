@@ -25,5 +25,9 @@
 	
 	"background": {
 		"scripts": ["background.js"]
-	}
+	},
+	
+	"web_accessible_resources": [
+		"button.js"
+	]
 }
