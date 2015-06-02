@@ -1,6 +1,7 @@
 {
 	"manifest_version": 2,
-	"name": "Youthumb-Chrome",
+	"name": "Youtube Thumbnail Finder",
+	"short_name": "Youthumb",
 	"description": "Add button on youtube videos to easly get thumbnail",
 	"version": "1.2.0",
 	"author": "Vegard Bjørsvik",
